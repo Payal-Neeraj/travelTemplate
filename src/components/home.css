@@ -1,0 +1,126 @@
+
+.image{
+    height: 20rem;
+	opacity: 0.5;
+    
+}
+.slideimage{
+    height: 40rem;
+}
+
+.img-alter {
+    padding-top: 10rem;
+    width: 100%;
+    position: relative;
+}
+    
+.img-icons {
+    position:absolute;
+    height: auto;
+    width: 10rem;
+z-index:99;
+left:20px;
+bottom:14%;
+}
+
+.img-icon1{
+    position:absolute;
+    height: auto;
+    width: 10rem;
+z-index:99;
+    left:100px;
+    bottom:14%; 
+}
+
+.img-icon2{
+    position:absolute;
+    height: auto;
+    width: 10rem;
+z-index:99;
+    left:100px;
+    bottom:14%; 
+}
+
+.img-icon3{
+    position:absolute;
+    height: auto;
+    width: 10rem;
+z-index:99;
+    left:140px;
+    bottom:14%; 
+}
+
+.img-icon4{
+    position:absolute;
+    height: auto;
+    width: 10rem;
+z-index:99;
+    left:180px;
+    bottom:14%; 
+}
+
+.card{
+    height: auto;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+  
+.icons-row{
+    background-color: #BA44E3;
+    clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 94%, 62% 98%, 28% 95%, 0 100%, 0% 30%);
+}
+
+.icons-size{
+    width: 5rem;
+    height: auto;
+    object-fit: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 768px){
+        align-items: center;
+    }
+}
+
+.content{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.icon-name{
+    color: black;
+    font-weight: bold;
+
+}
+.rotate {
+    animation: rotation 10s;
+  }
+  
+  .linear {
+    animation-timing-function: linear;
+  }
+  
+  .infinite {
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  #holiday .animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
